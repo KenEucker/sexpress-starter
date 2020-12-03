@@ -1,0 +1,32 @@
+{
+  "name": "sexpress-starter",
+  "version": "0.9.0",
+  "description": "A sexpress generator with example apps",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "sexpress": "^0.6.46"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "advanced": "node examples/advanced/app",
+    "start": "node examples/basic/app",
+    "dev": "node examples/basic/app --debug=true",
+    "donts": "node examples/donts/app",
+    "intermediate": "node examples/intermediate/app",
+    "minimal": "node examples/minimal/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keneucker/sexpress-starter.git"
+  },
+  "author": "Ken Eucker <keneucker@gmail.com>",
+  "license": "CC0 1.0 Universal",
+  "bugs": {
+    "url": "https://github.com/keneucker/sexpress-starter/issues"
+  },
+  "homepage": "https://github.com/keneucker/sexpress-starter#readme"
+}

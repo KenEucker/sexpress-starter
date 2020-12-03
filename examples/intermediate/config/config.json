@@ -1,0 +1,34 @@
+{
+    "name": "example",
+
+    "subdomains": {
+        "index": {
+            "template": "home"
+        },
+        "www": {
+            "template": "landing"
+        }
+    },
+
+    "public": {
+        "meta": true,
+        "yo": true
+    },
+
+    "login": true,
+
+    "sites": [
+        {
+            "subject": "keneucker.com",
+            "altnames": ["keneucker.com", "www.keneucker.com"]
+        }
+    ],
+
+    "authentication": {
+        "enabled": true,
+        "credentials": {
+            "username": "test"
+        },
+        "schemes": ["local", "basic"]
+    }
+}
